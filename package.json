@@ -1,0 +1,19 @@
+{
+  "name": "kube-press",
+  "version": "1.0.0",
+  "description": "Wiki based on VuePress.",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "cgm",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.48",
+    "@vuepress/plugin-search": "^2.0.0-beta.48"
+  },
+  "dependencies": {
+    "vuepress": "^2.0.0-beta.48"
+  }
+}
