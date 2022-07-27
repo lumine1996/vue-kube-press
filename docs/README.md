@@ -1,7 +1,7 @@
 ---
 home: true
 title: Home
-heroImage: /images/logo.png
+heroImage: /images/deployment.png
 actions:
   - text: Get Started
     link: /guide/getting-started.html
@@ -11,56 +11,20 @@ actions:
     type: secondary
 features:
   - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Performant
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-  - title: Themes
-    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
-  - title: Plugins
-    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site. 
-  - title: Bundlers
-    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
+    details: Greatly simplifies operations while retaining advanced features. Kube Manager helps users expose applications and mount storage.
+  - title: GPU Fraction
+    details: Provides flexible and fraction resource of GPU device, up to 1% utilization and 0.25G GPU memory.
+  - title: Multidimensional Monitoring
+    details: You can monitor resource usage by cluster, node, and user.
+  - title: Multisource Image
+    details: You can obtain the image from NGC Catalog or Docker Hub, upload tar file of image, or build the image using dockerfile.
+  - title: File Management
+    details: Provides Web file management, Web file and container is synchronized, there are personal and organization directory.
+  - title: Tenant Isolution
+    details: A system can be used by multiple organizations and data among tenants is isolated from each other. 
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
 ### As Easy as 1, 2, 3
 
-<CodeGroup>
-  <CodeGroupItem title="YARN" active>
-
-```bash
-# install in your project
-yarn add -D vuepress@next
-
-# create a markdown file
-echo '# Hello VuePress' > README.md
-
-# start writing
-yarn vuepress dev
-
-# build to static files
-yarn vuepress build
-```
-
-  </CodeGroupItem>
-
-  <CodeGroupItem title="NPM">
-  
-```bash
-# install in your project
-npm install -D vuepress@next
-
-# create a markdown file
-echo '# Hello VuePress' > README.md
-
-# start writing
-npx vuepress dev
-
-# build to static files
-npx vuepress build
-```
-
-  </CodeGroupItem>
-</CodeGroup>
+![Create Application](./create.png)

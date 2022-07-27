@@ -5,24 +5,25 @@ const { defaultTheme } = require('vuepress')
 const { searchPlugin } = require('@vuepress/plugin-search')
 
 export default defineUserConfig({
+  // base: '/press/',
   head: [['link', { rel: 'icon', href: 'https://vuejs.org/images/logo.png' }]],
   locales: {
     // 键名是该语言所属的子路径
     // 作为特例，默认语言可以使用 '/' 作为其路径。
     '/': {
         lang: 'en-US',
-        title: 'Doc Center',
-        description: 'The site is based on VuePress.',
+        title: 'Kube Manager',
+        description: 'GPU-enabled container cloud',
 
     },
     '/zh/': {
         lang: 'zh-CN',
-        title: '文档中心',
-        description: '此站点基于VuePress构建',
+        title: 'Kube Manager',
+        description: '支持GPU的容器云平台',
     },
   },
   theme: defaultTheme({
-    // logo: '/images/hero.png',
+    logo: '/images/logo.png',
     repo: 'lumine1996/vue-kube-press',
     docsBranch: 'master',
     docsDir: 'docs',

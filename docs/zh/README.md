@@ -1,7 +1,7 @@
 ---
 home: true
 title: 首页
-heroImage: /images/logo.png
+heroImage: /images/deployment.png
 actions:
   - text: 快速上手
     link: /zh/guide/getting-started.html
@@ -11,50 +11,20 @@ actions:
     type: secondary
 features:
   - title: 简洁至上
-    details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-  - title: Vue 驱动
-    details: 享受 Vue 的开发体验，可以在 Markdown 中使用 Vue 组件，又可以使用 Vue 来开发自定义主题。
-  - title: 高性能
-    details: VuePress 会为每个页面预渲染生成静态的 HTML，同时，每个页面被加载的时候，将作为 SPA 运行。
-  - title: 主题
-    details: 提供了一个开箱即用的默认主题。你也可以挑选一个社区主题，或者创建一个你自己的主题。
-  - title: 插件
-    details: 灵活的插件API，使得插件可以为你的站点提供许多即插即用的功能。
-  - title: 打包工具
-    details: 默认的打包工具是 Vite ，也同样支持 Webpack 。选一个你喜欢的来使用吧！
+    details: 大幅简化操作，同时保留高级特性。Kube Manager会帮助用户暴露应用和挂载存储。
+  - title: GPU细分
+    details: 提供了灵活且细粒度的GPU切分，最低可至1%利用率、0.25G显存。
+  - title: 多维度监控
+    details: 可以从集群、节点、用户等维度监控资源使用情况。
+  - title: 多镜像来源
+    details: 可以从NGC Catalog、Docker Hub等仓库获取镜像，也可以上传tar格式的镜像包，或者使用dockerfile构建。
+  - title: 文件管理
+    details: 提供Web文件管理，网页文件内容与容器同步，文件划分个人目录和组织共享目录。
+  - title: 租户隔离
+    details: 一套系统可供多个组织共同使用，租户间的数据相互隔离。 
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
 
 ### 像数 1, 2, 3 一样容易
 
-<CodeGroup>
-  <CodeGroupItem title="YARN" active>
-
-```bash
-# 在你的项目中安装
-yarn add -D vuepress@next
-# 新建一个 markdown 文件
-echo '# Hello VuePress' > README.md
-# 开始写作
-yarn vuepress dev
-# 构建静态文件
-yarn vuepress build
-```
-
-  </CodeGroupItem>
-
-  <CodeGroupItem title="NPM">
-
-```bash
-# 在你的项目中安装
-npm install -D vuepress@next
-# 新建一个 markdown 文件
-echo '# Hello VuePress' > README.md
-# 开始写作
-npx vuepress dev
-# 构建静态文件
-npx vuepress build
-```
-
-  </CodeGroupItem>
-</CodeGroup>
+![创建应用](./create.png)

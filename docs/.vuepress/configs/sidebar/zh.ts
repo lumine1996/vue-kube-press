@@ -7,22 +7,13 @@ export const sidebarZh: SidebarConfig = {
       children: [
         '/zh/guide/README.md',
         '/zh/guide/getting-started.md',
-      ],
-    },
-  ],
-  '/zh/api/': [
-    {
-      text: '接口文档',
-      children: [
-        '/zh/api/README.md',
-      ],
-    },
-  ],
-  '/zh/design/': [
-    {
-      text: '技术设计',
-      children: [
-        '/zh/design/README.md',
+        '/zh/guide/dashboard.md',
+        '/zh/guide/application.md',
+        '/zh/guide/account.md',
+        '/zh/guide/quota.md',
+        '/zh/guide/catalog.md',
+        '/zh/guide/file.md',
+        '/zh/guide/system.md',
       ],
     },
   ],

@@ -4,25 +4,10 @@ export const sidebarEn: SidebarConfig = {
   '/guide/': [
     {
       text: 'Guide',
+      collapsible: true,
       children: [
         '/guide/README.md',
-        '/guide/getting-started.md'
-      ],
-    },
-  ],
-  '/api/': [
-    {
-      text: 'Api Doc',
-      children: [
-        '/api/README.md',
-      ],
-    },
-  ],
-  '/design/': [
-    {
-      text: 'Program Design',
-      children: [
-        '/design/README.md',
+        '/guide/getting-started.md',
       ],
     },
   ],
